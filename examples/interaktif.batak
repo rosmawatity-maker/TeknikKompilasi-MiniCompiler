@@ -1,0 +1,40 @@
+// ============================================
+// Program Interaktif BatakScript
+// Kalkulator sederhana dengan input pengguna
+// ============================================
+
+karejo tambah(a, b) {
+    mulak a + b
+}
+
+karejo kurang(a, b) {
+    mulak a - b
+}
+
+karejo kali(a, b) {
+    mulak a * b
+}
+
+karejo bagi(a, b) {
+    molo (b == 0) {
+        patuduhon("Error: Ndang boi dibagi nol!")
+        mulak 0
+    } ndang {
+        mulak a / b
+    }
+}
+
+// Input dari pengguna (Sudah Bahasa Batak Toba)
+patuduhon("=== KALKULATOR BATAKSCRIPT ===")
+adong angka1 : angka gabe angkahon(lehon("Pamasuk angka parjolo  : "))
+adong angka2 : angka gabe angkahon(lehon("Pamasuk angka paduahon : "))
+
+patuduhon("--- Hasilna ---")
+patuduhon("Tambahon  : ")
+patuduhon(tambah(angka1, angka2))
+patuduhon("Kuranghon  : ")
+patuduhon(kurang(angka1, angka2))
+patuduhon("Hali     : ")
+patuduhon(kali(angka1, angka2))
+patuduhon("Bagi     : ")
+patuduhon(bagi(angka1, angka2))

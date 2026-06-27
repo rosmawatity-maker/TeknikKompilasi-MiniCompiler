@@ -1,0 +1,10 @@
+// Faktorial rekursif
+karejo faktorial(n) {
+    molo (n <= 1) {
+        mulak 1
+    } ndang {
+        mulak n * faktorial(n - 1)
+    }
+}
+adong hasil : angka gabe faktorial(6)
+patuduhon(hasil)
